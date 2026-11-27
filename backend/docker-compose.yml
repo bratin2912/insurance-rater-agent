@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: insurance-rater-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: insurance_rater
+      POSTGRES_USER: rater_admin
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5433:5432"
+    volumes:
+      - insurance_rater_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rater_admin -d insurance_rater"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  insurance_rater_data:
+    name: insurance_rater_data
