@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     CHROMA_PORT: int = 8001
     CHROMA_COLLECTION: str = "insurance_knowledge"
     GOOGLE_API_KEY: str
+    GEMINI_MODEL: str = "gemini-3.8-flash"
 
     model_config = SettingsConfigDict(
         env_file=".env",
