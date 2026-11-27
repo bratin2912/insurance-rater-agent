@@ -13,3 +13,4 @@ boto3
 # Vector database
 chromadb
 PyMuPDF
+google-genai

@@ -68,30 +68,46 @@ class VectorStoreService:
             metadatas=metadatas,
         )
 
+
     def search(
         self,
         query_embedding: list[float],
         top_k: int = 5,
-        where: dict[str, Any] | None = None,
-    ) -> dict[str, Any]:
-        """Search for semantically similar document chunks."""
+        where: dict | None = None,
+    ) -> list[dict]:
 
-        if top_k < 1:
-            raise ValueError("top_k must be at least 1.")
-
-        return self.collection.query(
+        results = self.collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k,
             where=where,
-            include=[
-                "documents",
-                "metadatas",
-                "distances",
-            ],
+            include=["documents", "metadatas", "distances"],
         )
 
-    def delete_documents(self, ids: list[str]) -> None:
-        """Delete document chunks by their IDs."""
+        retrieved = []
 
-        if ids:
-            self.collection.delete(ids=ids)
+        ids = results.get("ids", [[]])[0]
+        documents = results.get("documents", [[]])[0]
+        metadatas = results.get("metadatas", [[]])[0]
+        distances = results.get("distances", [[]])[0]
+
+        for index, chunk_id in enumerate(ids):
+            retrieved.append({
+                "id": chunk_id,
+                "content": documents[index],
+                "metadata": metadatas[index],
+                "distance": distances[index],
+            })
+
+        return retrieved
+    
+    def delete_documents(self, ids: list[str]) -> None:
+        """
+        Delete specific chunks from ChromaDB using their IDs.
+        Safe to call with an empty list.
+        """
+        if not ids:
+            return
+    
+        self.collection.delete(ids=ids)
+
+
