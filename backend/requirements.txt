@@ -7,3 +7,9 @@ httpx
 sqlalchemy
 psycopg[binary]
 alembic
+# Object storage - S3 compatible
+boto3
+
+# Vector database
+chromadb
+PyMuPDF

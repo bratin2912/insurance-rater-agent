@@ -17,6 +17,38 @@ services:
       timeout: 5s
       retries: 5
 
+  silo:
+    image: pgsty/silo:RELEASE.2026-11-12T00-00-00Z
+    container_name: insurance-rater-silo
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    ports:
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"
+    volumes:
+      - insurance_rater_minio_data:/data
+
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: insurance-rater-chroma
+    restart: unless-stopped
+    environment:
+      IS_PERSISTENT: "TRUE"
+      PERSIST_DIRECTORY: /chroma/chroma
+    ports:
+      - "127.0.0.1:8001:8000"
+    volumes:
+      - insurance_rater_chroma_data:/chroma/chroma
+
 volumes:
   insurance_rater_data:
     name: insurance_rater_data
+
+  insurance_rater_minio_data:
+    name: insurance_rater_minio_data
+
+  insurance_rater_chroma_data:
+    name: insurance_rater_chroma_data

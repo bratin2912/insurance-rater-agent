@@ -1,0 +1,47 @@
+[
+  {
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "rule_code": "GWP_SLAB_BASIS",
+    "category": "SLAB_CALCULATION",
+    "description": "Slab will be calculated basis comprehensive + SAOD GWP on PVT CAR (SATP premium is excluded for slab achievement)",
+    "source_text": "Slab will be calculated basis comprehensive + SAOD GWP on PVT CAR (SATP premium is excluded for slab achievement)",
+    "source_page": 1
+  },
+  {
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "rule_code": "SATP_PREMIUM_EXCLUSION",
+    "category": "PREMIUM_EXCLUSION",
+    "description": "SATP premium is excluded for slab achievement",
+    "source_text": "SATP premium is excluded for slab achievement",
+    "source_page": 1
+  },
+  {
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "rule_code": "NON_PETROL_FUEL_CLASSIFICATION",
+    "category": "FUEL_CLASSIFICATION",
+    "description": "Non Petrol includes Diesel, CNG, LPG",
+    "source_text": "Non Petrol includes Diesel, CNG, LPG",
+    "source_page": 1
+  },
+  {
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "rule_code": "NEW_BUSINESS_NCB",
+    "category": "NCB_CLASSIFICATION",
+    "description": "New Business will be considered as NCB",
+    "source_text": "New Business will be considered as NCB",
+    "source_page": 1
+  },
+  {
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "rule_code": "EV_HYBRID_PETROL_GRID",
+    "category": "FUEL_CLASSIFICATION",
+    "description": "EV and Hybrid is to be considered in Petrol Grid",
+    "source_text": "EV and Hybrid is to be considered in Petrol Grid",
+    "source_page": 1
+  }
+]

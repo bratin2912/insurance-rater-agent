@@ -1,0 +1,682 @@
+[
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "ASSAM",
+    "location": "Rest of Assam",
+    "zone": "ZONE_1",
+    "mapping_type": "REMAINDER",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 2,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "ASSAM",
+    "location": "Nagaon",
+    "zone": "ZONE_2",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 2,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "ASSAM",
+    "location": "KAMRUP",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 3,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "BIHAR",
+    "location": "Bihar",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 4,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "JHARKHAND",
+    "location": "Jharkhand",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 5,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "WEST BENGAL",
+    "location": "West Bengal",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 6,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Arunachal Pradesh",
+    "location": "Arunachal Pradesh",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 7,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Chhattisgarh",
+    "location": "Chhattisgarh",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 8,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Manipur",
+    "location": "Manipur",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 9,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Meghalaya",
+    "location": "Meghalaya",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 10,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Mizoram",
+    "location": "Mizoram",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 11,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Nagaland",
+    "location": "Nagaland",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 12,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Odisha",
+    "location": "Odisha",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 13,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Sikkim",
+    "location": "Sikkim",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 14,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "EAST",
+    "state": "Tripura",
+    "location": "Tripura",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 15,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "ANDHRA PRADESH",
+    "location": "ANDHRA PRADESH",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 16,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "KARNATAKA",
+    "location": "BANGALORE",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 17,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "KARNATAKA",
+    "location": "Rest of Karnataka",
+    "zone": "ZONE_2",
+    "mapping_type": "REMAINDER",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 17,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "TAMIL NADU",
+    "location": "ANDAMANS",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 18,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "TAMIL NADU",
+    "location": "Rest of Tamil Nadu",
+    "zone": "ZONE_2",
+    "mapping_type": "REMAINDER",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 18,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "Kerala",
+    "location": "Kerala",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 19,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "SOUTH",
+    "state": "Telangana",
+    "location": "Telangana",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 20,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GOA",
+    "location": "GOA",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 21,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GUJARAT",
+    "location": "AHMEDABAD",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 22,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GUJARAT",
+    "location": "Rest of Gujarat",
+    "zone": "ZONE_2",
+    "mapping_type": "REMAINDER",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 22,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GUJARAT",
+    "location": "DADRA & NAGAR HAVELI",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 23,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GUJARAT",
+    "location": "DAMAN",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 24,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "GUJARAT",
+    "location": "VADODARA",
+    "zone": "ZONE_1",
+    "mapping_type": "LOCATION",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 25,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "WEST",
+    "state": "MAHARASHTRA",
+    "location": "Maharashtra",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 1,
+      "table": 3,
+      "row": 26,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Haryana",
+    "location": "Haryana",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 3,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Himachal Pradesh",
+    "location": "Himachal Pradesh",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 4,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Punjab",
+    "location": "Punjab",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 5,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Uttar Pradesh",
+    "location": "Uttar Pradesh",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 6,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Uttarakhand",
+    "location": "Uttarakhand",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 7,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "J&K",
+    "location": "J&K",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 8,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "NCR",
+    "location": "NCR",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 9,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Delhi",
+    "location": "Delhi",
+    "zone": "ZONE_1",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 10,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "NORTH",
+    "state": "Chandigarh",
+    "location": "Chandigarh",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 11,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "CENTRAL",
+    "state": "Madhya Pradesh",
+    "location": "Madhya Pradesh",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 12,
+      "column": null,
+      "source_text": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "insurer": "HDFC ERGO",
+    "product_line": "Private Car",
+    "region": "CENTRAL",
+    "state": "Rajasthan",
+    "location": "Rajasthan",
+    "zone": "ZONE_2",
+    "mapping_type": "STATE_WIDE",
+    "source": {
+      "page": 2,
+      "table": 1,
+      "row": 13,
+      "column": null,
+      "source_text": null
+    }
+  }
+]
